@@ -5,6 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clean":"node ./scripts/clean.js out",
+    "compile":"npm run make",
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make"
